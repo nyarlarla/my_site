@@ -1,14 +1,191 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link rel="stylesheet" href="style.css">
   <title>my site</title>
 </head>
+</html>
 <body>
 	<header>
+	  <section class="header-item clearfix">
 		<img class="header-logo" src="img/logo.png">
+		<div id="nav-drawer">
+		      <input id="nav-input" type="checkbox" class="nav-unshown">
+		      <label id="nav-open" for="nav-input">
+		      	<div class="logo-border">
+		      	<i class="fas fa-bars"></i>
+		      </div>
+		      </label>
+		      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+	     <div id="nav-content"><nav 	class="header-list">
+				<ul class="list">
+				<li class="header-list-item">Portfolio</li>
+				<li class="header-list-item">Feature</li>
+				<li class="header-list-item">Profile</li>
+				<li class="header-list-item">Contact</li>
+			</ul>
+		</nav>
+	    </div>
+       </div>
+	  </section>
 	</header>
+	<section class="main-visual">
+		<div class="main-visual-image">
+		  <div class="main-visual-text1">
+		    <h1>Lorem Ipsum</h1>
+	      </div>
+	      <div class="main-visual-text2">
+	    	<h2>simply dummy text of the printing</h2>
+	      </div>
+	    </div>
+	</section>
+	<section class="portfolio clearfix">
+	 <div class="portfolio-box">
+		<div class="portfolio-title">
+			<p>Prtfolio</p>
+		</div>
+		<div class="border"></div>
+		<div class="text">
+			<p>It is along established fact that a reader will be distracted by the readable<br>
+			content of a page when looking at its layout.<br>
+			The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters</p>
+		</div>
+		<div class="portfolio-item">
+		<div class="portfolio-image"></div>
+		<div class="portfolio-image"></div>
+		<div class="portfolio-image"></div>
+		<div class="portfolio-image"></div>
+		<div class="portfolio-image"></div>
+		<div class="portfolio-image"></div>
+	    </div>
+	  </div>
+	</section>
+	<section class="feature clearfix">
+		<div class="feature-box">
+			<div class="feature-title">
+				<p>Feature</p>
+			</div>
+			<div class="border"></div>
+			<div class="text">
+				<p>It is along established fact that a reader will be distracted by the readable<br>
+				content of a page when looking at its layout.<br>
+				The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters</p>
+			</div>
+			<div class="hogehoge">
+		    <div class="feature-item">
+		    	<div class="feature-logo">
+		    		<i class="fas fa-address-book"></i>
+		    	</div>
+		    	<div class="feature-logo-title">Strength1</div>
+		    	<div class="feature-text">
+		    		<p>text<br>
+		    		   text<br>
+		    		   text<br>
+		    		   text<br>
+		    		   text</p>
+		    	</div>
+		    </div>
+		    <div class="feature-item">
+		    	<div class="feature-logo">
+		    		<i class="fas fa-address-book"></i>
+		    	</div>
+		    	<div class="feature-logo-title">Strength1</div>
+		    	<div class="feature-text">
+		    		<p>text<br>
+		    		   text<br>
+		    		   text<br>
+		    		   text<br>
+		    		   text</p>
+		    	</div>
+		    </div>
+		    <div class="feature-item">
+		    	<div class="feature-logo">
+		    		<i class="fas fa-address-book"></i>
+		    	</div>
+		    	<div class="feature-logo-title">Strength1</div>
+		    	<div class="feature-text">
+		    		<p>text<br>
+		    		   text<br>
+		    		   text<br>
+		    		   text<br>
+		    		   text</p>
+		    	</div>
+		    </div>
+		</div>
+		</div>
+	</section>
+	<section class="profile clearfix">
+		<div class="profile-box">
+			<div class="profile-title">
+				<p>Profile</p>
+			</div>
+			<div class="border"></div>
+			<div class="text">
+				<p>It is along established fact that a reader will be distracted by the readable<br>
+				content of a page when looking at its layout.<br>
+				The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters</p>
+			</div>
+			<div class="profile-image">
+				<div class="profile-icon"></div>
+		    </div>
+			<div class="profile-textbox">
+			  <div class="my-name">
+				<p>MyName</p>
+			  </div>
+			  <div class="profile-text">
+				<p>Cantrary to populae belief. Lorem lpsum is not simply randm text it has roots in a piece of classical Latin literature from 45BC, making it over 2000years old. Richard McClintock, a Latin one of the more obscure Latin words. consectatur</p>
+			  </div>
+			  <div class="my-skill">
+				<p>MySkill</p>
+			  </div>
+			  <div class="my-skill-text">
+				<p>HTML/CSS/JavaScript/PhotoShop</p>
+			  </div>
+		    </div>
+		</div>
+	</section>
+	<section class="contact clearfix">
+		<div class="contact-box">
+			<div class="contact-title">
+				<p>Contact</p>
+			</div>
+			<div class="border"></div>
+			<div class="text">
+				<p>It is along established fact that a reader will be distracted by the readable<br>
+				content of a page when looking at its layout.<br>
+				The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters</p>
+			</div>
+		<div class="contact-inf">
+			<div class="mail">
+				<p>Mail</p>
+			</div>
+			<div class="mail-addr">
+				<p>xxx@xxx.com</p>
+			</div>
+			<div class="tell">
+				<p>Tell</p>
+			</div>
+			<div class="tel-no">
+				<p>000-0000-0000</p>
+			</div>
+		</div>
+		<div class="social">
+			<div class="SNS">
+				<p>SNS</p>
+			</div>
+			<div class="SNS-logo">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-instagram"></i>
+			</div>
+		</div>
+		</div>
+	</section>
+	<footer>
+		<p class="footer-text">©️ 2017 Web Camp</p>
+	</footer>
 </body>
 </html>
